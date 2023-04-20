@@ -1,0 +1,19 @@
+html,
+body,
+#map {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.container {
+    max-width: 100%;
+}
+
+h3 {
+  color: #cd0402;
+}
+
+ p {
+    color: #cd0402;
+    font-size: 20px;
+}
