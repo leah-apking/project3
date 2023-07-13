@@ -1,6 +1,6 @@
 // Plotly Graphs with Drought Data
 
-let url = "https://california-fire-data-if1l.onrender.com/api-drought"
+let url = "https://project3-07132023.s3.us-east-2.amazonaws.com/ca_drought.csv"
 
 // Fetch the JSON data and console log it
 d3.json(url).then(function(data) {
@@ -100,7 +100,7 @@ d3.json(url).then(function(data) {
 // Plotly Bar Graph with Wildfire Data
 
 // Store a URL/ call api
-var URL = "https://california-fire-data-if1l.onrender.com/api"
+var URL = "https://project3-07132023.s3.us-east-2.amazonaws.com/ca_wildfire.csv"
 
 // Fetch the JSON data and console log it
 d3.json(URL).then(
@@ -262,4 +262,4 @@ function createMap(wildFires) {
   }
   
   // Perform an API call to the wild fire data to get the fire information. Call createMarkers when it completes.
-  d3.json("https://california-wildfires-api-r6o6.onrender.com/api").then(createMarkers);
+  d3.json("https://project3-07132023.s3.us-east-2.amazonaws.com/ca_wildfire.csv").then(createMarkers);
